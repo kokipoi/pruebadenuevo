@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Adopcion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+<body style="background-color: antiquewhite;">
+    <div id="container">
+        <a name="top" id="top"></a>
+        <div id="header">
+          <div id="panel" >
+            <div class="upper">
+                <div class="wrapper">
+                    <ul id="menu">
+                      <li><a href="algo.html"><img class="imagennav" src="img/logo2.png" alt="logonav"></a></li>
+                        <li><a class="lia" href="adoptar.html">Adopta</a></li>
+                        <li><a class="lia"href="#">Contactanos</a></li>
+                        <li><a class="lia"href="tienda.html">Tienda</a></li>
+                        <li><a href="#"><img class="imagennav" src="img/carro.png" alt="logonav"></a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+              </div>
+        </div>
+
+    <div id="main" class=" wrapperindex plain1">
+        <div class="space1" style="background-color: antiquewhite;"></div>
+        <div style="border-radius: 10px; border-color: black;">
+        <form id="formulario" action="#" method="POST">
+            <h1>Formulario de Adopción    </h1>
+            <label for="rut">Rut:</label>
+            <input class="input-style" type="text" id="rut" name="rut" required minlength="9" maxlength="10">
+            
+            <label for="apellido_paterno">Apellido Paterno:</label>
+            <input class="input-style" type="text" id="apellido_paterno" name="apellido_paterno" required minlength="3" maxlength="20">
+            
+            <label for="apellido_materno">Apellido Materno:</label>
+            <input class="input-style" type="text" id="apellido_materno" name="apellido_materno" required minlength="3" maxlength="20">
+            
+            <label for="nombre">Nombre:</label>
+            <input class="input-style" type="text" id="nombre" name="nombre" required minlength="3" maxlength="20">
+            
+            <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+            <input class="input-style" type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+            
+            <label for="edad">Edad:</label>
+            <input class="input-style" type="number" id="edad" name="edad" required min="18" max="35">
+            
+            <label for="genero">Género:</label>
+            <select class="input-style"id="genero" name="genero" required>
+                <option class="option-style" value="" disabled selected>Seleccione su género</option>
+                <option class="option-style" value="Masculino">Masculino</option>
+                <option class="option-style" value="Femenino">Femenino</option>
+                <option class="option-style" value="Otro">Otro</option>
+            </select>
+            
+            <label for="email">Email:</label>
+            <input class="input-style" type="email" id="email" name="email" required>
+            
+            <label for="celular">Celular:</label>
+            <input class="input-style" type="text" id="celular" name="celular" required minlength="9" maxlength="12">
+                        
+            <button class="btn btn-success mt-2" type="submit" id="enviar">Enviar</button>
+        </form>
+        </div>
+    </div>
+
+
+    <div id="footer">
+        <div class="downfoot">
+          <img src="img/LOGO2.png" style="height: 100px; margin-left: 780px; margin-top: 30px;" alt="">
+        <div class="lower wrapperindex">
+          <div class="wrapper">
+            <span id="copyright">
+              © 2024-2024.
+              <br>
+              Creado por perros y gatos
+            </span>
+          </div>
+        </div>
+      </div>
+      </div>
+  
+
+
+
+
+
+  </div>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
